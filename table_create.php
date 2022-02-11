@@ -1,5 +1,5 @@
-//MySQL(MariaDB)の専用領域にテーブル作成
 <?php 
+//MySQL(MariaDB)の専用領域にテーブル作成
 //MariaDBに接続
 $luk = mysqli_connect( 'localhost' , 'php' , 'php' , 'php' ,);
  if( $luk == false ) {
