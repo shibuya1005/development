@@ -14,10 +14,10 @@ $sql = "";
 $sql .= "drop table URIAGE_Goukei\n";
 $res = mysqli_query( $luk , $sql ); //実行
 if( $res == false ) {
-  echo "Drop err<br>";
+  echo "Drop Err<br>";
 //exit;
 } else {
-  echo "Drop Ok ["  . $res . "]<br>";
+  echo "Drop Ok [" . $res . "]<br>";
 }
 //テーブル作成のSQLを作成
 $sql = "";
