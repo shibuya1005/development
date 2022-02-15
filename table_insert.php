@@ -34,7 +34,7 @@ if( $res == false) {
 //データ取得
 $sql = "";
 $sql .= "SELECT name\n";
-$sql .= "         , time/n";
+$sql .= "         , time\n";
 $sql .= "from URIAGE_Goukei/n";
 $res = $res = mysqli_query( $luk , $sql ); //実行
 if( $res == false) {
