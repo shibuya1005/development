@@ -19,7 +19,7 @@
 //レコード追加
 $sql = "";
 $sql .= "insert into URIAGE_Goukei\n";
-$sql .= "( name , time\n)";
+$sql .= "( name , time\n";
 $sql .= ")\n";
 $sql .= "values\n";
 $sql .= "('". $name . "' , now(6)/n";
