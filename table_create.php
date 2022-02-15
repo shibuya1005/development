@@ -30,7 +30,7 @@ if( $res == false ) {
   echo "Create Err<br>";
   exit;
 }
-echo "Create Ok [" .$res . "]<br>";
+echo "Create Ok [" . $res . "]<br>";
 
 //MariaDB切断
 mysqli_close( $luk );
