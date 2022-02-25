@@ -25,7 +25,7 @@ $sql .= "CREATE TABLE URIAGE_Goukei\n";
 $sql .= "( name VARCHAR(100)\n";
 $sql .= ",  time TIMESTAMP(6)\n";
 $sql .= ")\n";
-$res = mysql_query( $lnk , $sql ); //実行
+$res = mysqli_query( $lnk , $sql ); //実行
 if( $res == false ) {
   echo "Create Err<br>";
   exit;
