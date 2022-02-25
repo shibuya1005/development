@@ -24,7 +24,7 @@ $sql .= ")\n";
 $sql .= "values\n";
 $sql .= "('". $name . "' , now(6)/n";
 $sql .= ")\n";
-$res = mysqli_query( $luk , $sql ); //実行
+$res = mysqli_query( $lnk , $sql ); //実行
 if( $res == false) {
   echo "Insert Err<br>";
   exit;
@@ -36,7 +36,7 @@ $sql = "";
 $sql .= "SELECT name\n";
 $sql .= "         , time\n";
 $sql .= "from URIAGE_Goukei/n";
-$res = $res = mysqli_query( $luk , $sql ); //実行
+$res = $res = mysqli_query( $lnk , $sql ); //実行
 if( $res == false) {
 echo "Select Err<br>";
 exit;
@@ -49,6 +49,6 @@ foreach ($res as $row) {
  echo "View Ok<br>";
  
  //MariaDB切断
- mysqli_close( $luk );
+ mysqli_close( $lnk );
  
 ?>
