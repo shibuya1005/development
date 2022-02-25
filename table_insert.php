@@ -1,7 +1,7 @@
 <?php
 //MariaDBに接続
   $lnk = mysqli_connect( 'localhost', 'php','php','php');
-  if( $luk == false) {
+  if( $lnk == false) {
 //MariaDBに接続できなかった場合
     echo 'Connect Err<br>';
     exit;
