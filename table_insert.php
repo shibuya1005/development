@@ -29,7 +29,7 @@ if( $res == false) {
   echo "Insert Err<br>";
   exit;
 }
-  echo "Insert Ok . $res . "<br>";
+  echo "Insert Ok" . $res . "<br>";
   
 //データ取得
 $sql = "";
