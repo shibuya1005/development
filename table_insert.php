@@ -8,7 +8,7 @@
   }
     echo 'Connect Ok<br>';
 
-  if(isset($ REQUEST['name'])) {
+  if(isset($REQUEST['name'])) {
 //クエリ(URL)パラメータが指定されていた場合
     $name = $_REQUEST['name'];
   } else {
